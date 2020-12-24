@@ -1,0 +1,222 @@
+.colorfoot {
+    background: #0A2D64;
+    background-color: #0A2D64;
+    color: #fff;
+    height: 40px;
+    border-radius: 0;
+}
+.container{width: 100%;}
+.foot {
+    position: inherit;
+    top: 8px;
+}
+.desktop{    
+    position: fixed;
+    color: white;
+    background-color:white;
+    z-index: 100;
+}
+
+.block{
+    height: 70em;
+    background-color: #0A2D64;
+}
+
+.btn-default {
+    background: #0A2D64;
+    color: #fff;
+}
+
+.btn-default:hover {
+    background: #051b3d;
+    color: #fff;
+}
+
+.btn-undefault {
+    background: #7f6195;
+    color: #fff;
+}
+
+.rig {
+    text-align: right;
+}
+
+.fix {
+    position: fixed;
+}
+
+.pad {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+
+}
+
+@media screen and (max-width: 767px) {
+    .desktop {
+        visibility: hidden;
+        display: none;
+    }
+
+    .otstuptwo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .otstup {}
+}
+
+@media screen and (min-width: 767px) {
+    .mobile {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.cross {
+
+    z-index: 10;
+}
+
+body {
+    background-color: white;
+    ;
+}
+
+.white {
+    background-color: white;
+}
+
+.un {
+    text-decoration: none;
+}
+
+.un:hover {
+
+    text-decoration: none;
+}
+
+.wh {
+    color: white;
+
+}
+
+.wh:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.wh:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.ctr {
+    text-align: center;
+}
+
+.otstup {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.otstuptwo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.textback {
+    margin-top: 10%;
+}
+
+.blue {
+    background-color: #81b3d2;
+    color: white;
+}
+
+.gray {
+    background-color: #eee;
+    ;
+}
+
+#burger{
+    position: absolute;
+    left: 3em;
+}
+
+a:visited {
+    color: black;
+    /* Цвет посещенных ссылок */
+}
+
+a:active {
+    color: black;
+    /* Цвет активных ссылок */
+}
+
+a {
+    color: black;
+    /* Цвет ссылок */
+}
+
+.left {
+    text-align: left;
+}
+a, h1, p{
+    font-family: 'Montserrat';
+}
+.btn{
+    border: none;
+    border-radius: 3px;
+}
+img{
+    border-radius:5px ;
+}
+@media screen and (max-width: 1360px) {
+    body,
+    html {
+      font-size: 16.5px;
+    }
+  }
+  @media screen and (max-width: 1280px) {
+    body,
+    html {
+      font-size: 16px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    body,
+    html {
+      font-size: 15.5px;
+    }
+  }
+  @media screen and (max-width: 1145px) {
+    body,
+    html {
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width: 1040px) {
+    body,
+    html {
+      font-size: 14.5px;
+    }
+  }
+  @media screen and (max-width: 975px) {
+  }
+  @media screen and (max-width: 607px) {
+  }
+  @media all and (max-device-width: 808px) {
+    body,
+    html {
+      min-width: auto;
+      font-size: 14px;
+      line-height: 1.3em;
+    }
+  }
