@@ -1,31 +1,41 @@
-mixin card(hreff, titlee, pp, imagee, proj)
-  div.col-sm-6
-    div.card
-      div.card-body
-        h4.card-title
-          br
-          a(href=hreff)= titlee
-        p.card-text= pp
-        img(width="100%" height="" src=imagee) 
-        br
-        br
-        div(type="button" class="btn btn-default")
-          a(href=proj class="un wh") узнать больше
-mixin clients(name, pica, picb, picc, descr, visit)
-  h1.my-4= name
-  div.row
-      div.col-md-8
-          img(src=pica width="100%")
-      div.col-md-4
-          h3.my-3 описание
-          p= descr
-          div.btn.btn-default(type="button")
-              a.un.wh(href="https://avia76.ru")= visit
-  h3.my-4 дополнительные скрины
-  div.row
-      div.col-md-6
-          a(href="#")
-              img(src=picb width="100%")
-      div.col-md-6
-          a(href="#")
-              img(src=picc width="100%")
+mixin razdelitel
+    hr.featurette-divider
+mixin big-block-right(zagolovok, textt, link1, knopka1, link2, knopka2, imgadr, jakor)
+    div.col-md-5.mobile
+        img.featurette-image.img-fluid.mx-auto(src=imgadr style="margin-top: 1em;")
+    div.col-md-7(name=jakor)
+        h2.featurette-heading.rocket= zagolovok
+        p.lead= textt
+        a.btn.btn-info(href=link1 role="button")= knopka1
+        a(href=link2)
+            button.btn.btn-link(type="button")= knopka2
+    div.col-md-5.desktop
+        img.featurette-image.img-fluid.mx-auto(src=imgadr style="margin-top: 1em;")
+mixin big-block-left(zagolovok, textt, link1, knopka1, link2, knopka2, imgadr, jakor)
+    div.col-md-5(name=jakor)
+        img.featurette-image.img-fluid.mx-auto(src=imgadr style="margin-top: 1em;")
+    div.col-md-7
+        h2.featurette-heading.rocket= zagolovok
+        p.lead= textt
+        a.btn.btn-info(href=link1 role="button")= knopka1
+        a(href=link2)
+            button.btn.btn-link(type="button")= knopka2
+mixin uslugi-block(ssstyle, imgsrc, widthh, jakor, zagolovok, litltext, linkk, knopka)
+    div.col-lg-6.oneline(style=ssstyle)
+        img(src=imgsrc width=widthh)
+        div.onelinen
+            h2.rocket(name=jakor)= zagolovok
+            p= litltext
+            p
+                a.btn.btn-secondary(href=linkk role="button")= knopka
+mixin registration(sourceimg, wid, hei, zagolovok, litltext, linkk, knopka)
+    div.col-lg-6(style="text-align: center;")
+        img(src=sourceimg width=wid height=hei)
+        h2.rocket= zagolovok
+        p= litltext
+        a(href=linkk)
+            button.btn.btn-link(type="button")= knopka
+mixin regonsite(sourceimg, target)
+    div.col-lg-2(style="text-align: center;")
+        a(href=target)
+            img.register(src=sourceimg) 

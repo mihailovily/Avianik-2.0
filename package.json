@@ -1,11 +1,11 @@
 {
-  "name": "mihailovily",
-  "scripts": {
-    "build": "pug index.pug && pug about.pug && pug career.pug && pug contact.pug",
-    "test": "jest"
-  },
-  "dependencies": {
-    "pug": "^3.0.3",
-    "yarn": "^1.22.10"
-  }
+    "name": "avanik",
+    "version": "3.1.0",
+    "scripts": {
+        "build": "pug index.pug && pug about.pug && pug uslugi.pug && pug corp.pug && pug contact.pug && pug registration.pug && pug review.pug"
+    },
+    "dependencies": {
+        "pug": "^3.0.3",
+        "pug-cli": "^1.0.0-alpha6"
+    }
 }
