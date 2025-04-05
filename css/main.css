@@ -1,181 +1,202 @@
 @font-face {
-    font-family: Rocket;
-    src: url('../font/rocket.ttf');
+  font-family: Rocket;
+  src: url("../font/rocket.ttf");
 }
 
 @font-face {
-    font-family: Stapel;
-    src: url('../font/SFProDisplay-Regular.ttf');
+  font-family: Stapel;
+  src: url("../font/SFProDisplay-Regular.ttf");
 }
 
 .rocket,
 button,
 .btn {
-    font-family: 'Rocket';
+  font-family: "Rocket";
 }
 
 .stapel,
 a,
 p {
-    font-family: 'Stapel';
+  font-family: "Stapel";
 }
 
 @media screen and (max-width: 920px) {
-    .pc {
-        visibility: hidden;
-        display: none;
-    }
+  .pc {
+    visibility: hidden;
+    display: none;
+  }
 }
 
 @media screen and (min-width: 920px) {
-    .mobile {
-        visibility: hidden;
-        display: none;
-    }
-    .oneline {
-        display: table;
-    }
-    .onelinen {
-        display: table-cell;
-        vertical-align: middle;
-    }
-    .oneline img {
-        margin-right: 1em;
-    }
-    .featurette-heading {
-        margin-top: 7rem;
-    }
+  .mobile {
+    visibility: hidden;
+    display: none;
+  }
+  .oneline {
+    display: table;
+  }
+  .onelinen {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .oneline img {
+    margin-right: 1em;
+  }
+  .featurette-heading {
+    margin-top: 7rem;
+  }
 }
 
 @media screen and (max-width: 920px) {
-    .desktop {
-        visibility: hidden;
-        display: none;
-    }
-    .otstuptwo {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    body {
-        padding-top: 0px;
-    }
-    main {
-        padding-top: 48px;
-    }
-    .umenschit {
-        margin-bottom: 0px;
-        margin-top: 40px;
-    }
-    .register{
-        width: 70% !important};
+  .desktop {
+    visibility: hidden;
+    display: none;
+  }
+  .otstuptwo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  body {
+    padding-top: 0px;
+  }
+  main {
+    padding-top: 48px;
+  }
+  .umenschit {
+    margin-bottom: 0px;
+    margin-top: 40px;
+  }
+  .register {
+    width: 70% !important;
+  }
 }
 
 .nav-item {
-    margin-left: 2.5em;
+  margin-left: 2.5em;
 }
 
 .btn {
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 .ctr {
-    text-align: center;
+  text-align: center;
 }
 
 .pad {
-    position: absolute;
-    left: 0px;
-    top: 10px;
+  position: absolute;
+  left: 0px;
+  top: 10px;
 }
 
 .mobnav {
-    background: #dedede;
-    position: fixed;
-    width: 100%;
-    height: 48px;
-    z-index: 100;
+  background: #dedede;
+  position: fixed;
+  width: 100%;
+  height: 48px;
+  z-index: 100;
 }
 
 .menu {
-    background: #dedede;
+  background: #dedede;
 }
 
 .btn:focus,
 .btn:active {
-    outline: none !important;
-    box-shadow: none;
+  outline: none !important;
+  box-shadow: none;
 }
 
 .zero {
-    margin-top: 2em !important
+  margin-top: 2em !important;
 }
 
 footer a,
 footer a:hover,
 footer a:active {
-    color: #212529;
+  color: #212529;
 }
 
-.faq{
-    margin-bottom: 1em;
+.faq {
+  margin-bottom: 1em;
 }
 
-.answer-faq{
-    display: none;
+.answer-faq {
+  display: none;
 }
-p{
-    text-align: justify;
-}
-
-i{
-    font-size: 2rem;
-    margin-right: 0.3em;
-    color: #212529;
+p {
+  text-align: justify;
 }
 
-.wideline, .fas, .far, i{line-height: 1.50 !important;}
+i {
+  font-size: 2rem;
+  margin-right: 0.3em;
+  color: #212529;
+}
+
+.wideline,
+.fas,
+.far,
+i {
+  line-height: 1.5 !important;
+}
 
 .wideline a,
 .wideline a:hover,
 .wideline a:active {
-    color: #212529;
+  color: #212529;
 }
 
-.nav-link, .nnn{
-    padding-bottom: 0px !important;
-padding-top: 0.9rem !important;
+.nav-link,
+.nnn {
+  padding-bottom: 0px !important;
+  padding-top: 0.9rem !important;
 }
 
-.register{
-    border-radius: 10px;
-    margin-bottom: 2em;
-    width: 100%;
-
+.register {
+  border-radius: 10px;
+  margin-bottom: 2em;
+  width: 100%;
 }
 
-.or{font-size:1rem;
-    color: rgba(0, 0, 0, .7);}
+.or {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.7);
+}
 
 @media screen and (max-width: 1500px) {
-    #phone{
-        visibility: hidden;
-        display: none;
-    }
-
+  #phone {
+    visibility: hidden;
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1260px) {
-    #blocktop{
-        visibility: hidden;
-        display: none;
-    }
-
+  #blocktop {
+    visibility: hidden;
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1200px) {
+  .oneline {
+    display: inline;
+  }
+}
 
-    .oneline {
-        display: inline;
-    }
+.nk-cookie-banner {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 999;
+  border-radius: 0px;
+  display: none;
+}
 
+.cookie-text {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
